@@ -19,6 +19,7 @@ Specifically for my vim keybinds in vscode (most are default).
 - `<C-F>` page down  
 
 | `h`     | Move cursor left   |
+|---------|--------------------|
 | `j`     | Move cursor down   |
 | `k`     | Move cursor up     |
 | `l`     | Move cursor right  |
