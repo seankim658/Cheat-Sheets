@@ -29,14 +29,21 @@ Specifically for my vim keybinds in vscode (most are default).
 | `e`     | Next end of word     |
 
 ### Line Navigating  
-- `0` start of line  
-- `$` end of line  
+| Command | Result               |
+|---------|----------------------|
+| `0`     | Start of Line        |
+| `$`     | End of line          |
 
 ### Character Navigating  
-- `fc` go forward to character c
-- `Fc` go backwrd to character c  
+| Command | Result                      |
+|---------|-----------------------------|
+| `fc`    | Go forward to character c   |
+| `Fc`    | Go backward to character c  |
 
 ### Document Navigating  
-- `gg` jump to first line  
-- `G` jump to last line  
-- `:n` go to line n 
+| Command | Result               |
+|---------|----------------------|
+| `gg`    | Jump to first line   |
+| `G`     | Jump to last line    |
+| `:n`    | Go to line n         |
+| `nG`    | Go to line n         |
