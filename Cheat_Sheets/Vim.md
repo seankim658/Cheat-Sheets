@@ -9,15 +9,6 @@ Specifically for my vim keybinds in vscode (most are default).
 
 ## Navigation  
 ### General Navigating 
-- `h` move cursor left  
-- `j` move cursor down  
-- `k` move cursor up  
-- `l` move cursor right  
-- `<C-U>` half page up  
-- `<C-D>` half page down  
-- `<C-B>` page up    
-- `<C-F>` page down  
-
 | Command | Result             |
 |---------|--------------------|
 | `h`     | Move cursor left   |
@@ -30,10 +21,12 @@ Specifically for my vim keybinds in vscode (most are default).
 | `<C-F>` | Page down          |
 
 ### Word Navigating 
-- `b` previous word  
-- `w` next word  
-- `ge` previous end of word  
-- `e` next end of word  
+| Command | Result               |
+|---------|----------------------|
+| `b`     | Previous word        |
+| `w`     | Next word            |
+| `ge`    | Previous end of word |
+| `e`     | Next end of word     |
 
 ### Line Navigating  
 - `0` start of line  
