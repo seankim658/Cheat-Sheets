@@ -6,6 +6,8 @@ Specifically for my vim keybinds in vscode (most are default).
     * [General Navigating](#general-navigating)
     * [Word Navigating](#word-navigating)
     * [Line Navigating](#line-navigating)
+    * [Character Navigating](#character-navigating)
+    * [Document Navigating](#document-navigating)
 
 ## Navigation  
 ### General Navigating 
