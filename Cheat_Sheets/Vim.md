@@ -6,7 +6,7 @@ Specifically for my vim keybinds in vscode (most are default).
     * [General Navigating](#general-navigating)
     * [Word Navigating](#word-navigating)
 
-## Navigating  
+## Navigation  
 ### General Navigating 
 - `h` move cursor left  
 - `j` move cursor down  
