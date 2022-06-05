@@ -17,6 +17,7 @@
 | Mixed Lists      | `1. Item` <br> `2. Item` <br> &emsp;`* Item`                         |                                                                                                |
 | Blockquotes      | `> quoted text` <br> `>> quoted text` <br><br> `> * quoted list`     |                                                                                                |
 | Code             | `'code'`                                                             | `code`                                                                                         |
+| Code Block       | `~~~ code block ~~~~` <br> ` ```code block``` `                      | ``` code block```                                                                              |
 
 
 [1]: https://www.theverge.com/
