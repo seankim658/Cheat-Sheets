@@ -14,7 +14,7 @@
 | Footnotes        | `text footnote [^1]` <br> `[^1]: footnote text`                      | text footnote [^1]                                                                             |
 | Bullet Lists     | `* Item` <br> `* Item` <br> `- Item` <br> `- Item`                   |                                                                                                |
 | Numbered Lists   | `1. Item` <br> `2. Item` <br> `3. Item`                              |                                                                                                |
-| Mixed Lists      | `1. Item` <br> `2. Item` <br> `    * Item`                           |                                                                                                |
+| Mixed Lists      | `1. Item` <br> `2. Item` <br> &emsp`* Item`                          |                                                                                                |
 
 
 [1]: https://www.theverge.com/
