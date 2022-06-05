@@ -12,6 +12,8 @@
 | Referenced Images| `Logo: ![Alt][1]` <br> `[1]: link`                                   | Logo: ![Alt][3]                                                                                |
 | Linked Images    | `Linked logo: [![Alt][1]][2]` <br> `[1]: logo link` <br> `[2]: link` | Linked logo: [![Alt][4]][5]                                                                    |
 | Footnotes        | `text footnote [^1]` <br> `[^1]: footnote text`                      | text footnote [^1]                                                                             |
+| Bullet Lists     | `* Item` <br> `* Item` <br> `- Item` <br> `- Item`                   | * Item <br> * Item <br> - Item <br> - Item                                                     |
+| Numbered Lists   | `1. Item` <br> `2. Item` <br> `3. Item`                              | 1. Item <br> 2. Item <br> 3. Item                                                              |
 
 [1]: https://www.theverge.com/
 [2]: https://www.espn.com/  
