@@ -15,7 +15,7 @@
 | Bullet Lists     | `* Item` <br> `* Item` <br> `- Item` <br> `- Item`                   |                                                                                                |
 | Numbered Lists   | `1. Item` <br> `2. Item` <br> `3. Item`                              |                                                                                                |
 | Mixed Lists      | `1. Item` <br> `2. Item` <br> &emsp;`* Item`                         |                                                                                                |
-| Blockquotes      | `> quoted text` <br> `>> quoted text` <br><br> `> * quoted list`     | > quoted text <br> >> quoted text <br> > * quoted list                                         |
+| Blockquotes      | `> quoted text` <br> `>> quoted text` <br><br> `> * quoted list`     | > quoted text                                                                                  |
 
 
 [1]: https://www.theverge.com/
