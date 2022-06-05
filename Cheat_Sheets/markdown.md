@@ -15,6 +15,8 @@
 | Bullet Lists     | `* Item` <br> `* Item` <br> `- Item` <br> `- Item`                   | * Item                                                                                         |
 | Numbered Lists   | `1. Item` <br> `2. Item` <br> `3. Item`                              | 1. Item                                                                                        |
 
+* Item
+
 [1]: https://www.theverge.com/
 [2]: https://www.espn.com/  
 [3]: https://cdn.iconscout.com/icon/free/png-256/github-3215409-2673827.png  
