@@ -10,5 +10,5 @@
 
 
  [text][1] and [text][2]  
- [1]: https://www.theverge.com/  
- [2]: https://www.espn.com/  
+ [1]: https://www.theverge.com/ "Title"  
+ [2]: https://www.espn.com/ "Title"  
