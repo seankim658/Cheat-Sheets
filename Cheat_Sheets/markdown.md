@@ -9,6 +9,6 @@
 | Referenced Links    | `blah [text][1] and [text][2].` <br> `[1]: link` <br> `[2]: link` | [text][1] and [text][2]  <br> [1]: https://www.theverge.com/ <br> [2]: https://www.espn.com/  |
 
 
- [text][1] and [text][2]
- [1]: https://www.theverge.com/
- [2]: https://www.espn.com/
+ [text][1] and [text][2]  
+ [1]: https://www.theverge.com/  
+ [2]: https://www.espn.com/  
