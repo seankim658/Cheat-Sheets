@@ -20,7 +20,7 @@
 | Code Block       | `~~~ code block ~~~~` <br><br> ` ```code block``` `                  | ``` code block```                                                                              |
 | Headers          | `# Header 1` <br> `## Header 2` <br> `### Header 3`                  | # Header 1                                                                                     |
 | Definition Lists | `Term` <br> `: definition`                                           |                                                                                                |
-| Abbreviations    | `Md ocnverts text to HTML` <br> `*[HTML]: Hypertext Markup Language` | Markdown converts text to HTML                                                                 |
+| Abbreviations    | `Md ocnverts text to HTML.` <br> `*[HTML]: Hypertext Markup Language`| Markdown converts text to HTML.                                                                |
 
 
 
@@ -31,4 +31,4 @@
 [5]: https://www.wired.com/  
 
 [^1]: footnote
-*[HTML]: Hypertext Markup Language
+*[HTML]: HyperText Markup Language
