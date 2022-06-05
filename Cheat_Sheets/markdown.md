@@ -17,7 +17,11 @@
 | Mixed Lists      | `1. Item` <br> `2. Item` <br> &emsp;`* Item`                         |                                                                                                |
 | Blockquotes      | `> quoted text` <br> `>> quoted text` <br><br> `> * quoted list`     |                                                                                                |
 | Code             | `'code'`                                                             | `code`                                                                                         |
-| Code Block       | `~~~ code block ~~~~` <br> ` ```code block``` `                      | ``` code block```                                                                              |
+| Code Block       | `~~~ code block ~~~~` <br><br> ` ```code block``` `                  | ``` code block```                                                                              |
+| Headers          | `# Header 1` <br> `## Header 2` <br> `### Header 3`                  | # Header 1                                                                                     |
+| Definition Lists | `Term` <br> `: definition`                                           |                                                                                                |
+| Abbreviations    | `Md ocnverts text to HTML` <br> `*[HTML]: Hypertext Markup Language` | Markdown converts text to HTML                                                                 |
+
 
 
 [1]: https://www.theverge.com/
@@ -27,3 +31,4 @@
 [5]: https://www.wired.com/  
 
 [^1]: footnote
+*[HTML]: Hypertext Markup Language
