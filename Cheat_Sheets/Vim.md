@@ -30,19 +30,22 @@ Specifically for my vim keybinds in vscode (most are default).
 
 ## Navigation  
 ### General Navigating 
-| Command | Result                   |
-|---------|--------------------------|
-| `h`     | Move cursor left         |
-| `j`     | Move cursor down         |
-| `k`     | Move cursor up           |
-| `l`     | Move cursor right        |
-| `<C-U>` | Half page up             |
-| `<C-D>` | Half page down           |
-| `<C-B>` | Page up                  |
-| `<c-f>` | Page down                |
-| `{`     | Move up code block       |
-| `}`     | Move down code block     | 
-| `<C-O>` | Go back to previous line |
+| Command | Result                           |
+|---------|----------------------------------|
+| `h`     | Move cursor left                 |
+| `j`     | Move cursor down                 |
+| `k`     | Move cursor up                   |
+| `l`     | Move cursor right                |
+| `<C-U>` | Half page up                     |
+| `<C-D>` | Half page down                   |
+| `<C-B>` | Page up                          |
+| `<c-f>` | Page down                        |
+| `{`     | Move up code block               |
+| `}`     | Move down code block             |   
+| `<C-O>` | Go back to previous line         |
+| `H`     | Move to top of screen            |
+| `M`     | Move to middle of screen         |
+| `L`     | Move to bottom of screen         |
 
 ### Word Navigating 
 | Command | Result               |
@@ -53,16 +56,19 @@ Specifically for my vim keybinds in vscode (most are default).
 | `e`     | Next end of word     |
 
 ### Line Navigating  
-| Command | Result               |
-|---------|----------------------|
-| `0`     | Start of Line        |
-| `$`     | End of line          |
+| Command | Result                                          |
+|---------|-------------------------------------------------|
+| `0`     | Start of Line                                   |
+| `$`     | End of line                                     |
+| `^`     | Jump to first non-blank character of the line   |
+| `g_`    | Jump to last non-blank character of the line    |
 
 ### Character Navigating  
 | Command | Result                      |
 |---------|-----------------------------|
 | `fc`    | Go forward to character c   |
 | `Fc`    | Go backward to character c  |
+| `%`     | Move to matching character  |
 
 ### Document Navigating  
 | Command | Result               |
