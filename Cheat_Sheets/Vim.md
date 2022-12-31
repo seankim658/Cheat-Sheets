@@ -56,13 +56,15 @@ Specifically for my vim keybinds in vscode (most are default).
 | `e`     | Next end of word     |
 
 ### Line Navigating  
-| Command | Result                                          |
-|---------|-------------------------------------------------|
-| `0`     | Start of Line                                   |
-| `$`     | End of line                                     |
-| `^`     | Jump to first non-blank character of the line   |
-| `g_`    | Jump to last non-blank character of the line    |
-
+| Command | Result                                              |
+|---------|-----------------------------------------------------|
+| `0`     | Start of Line                                       |
+| `$`     | End of line                                         |
+| `^`     | Jump to first non-blank character of the line       |
+| `g_`    | Jump to last non-blank character of the line        |
+| `A`     | Go to the end of the line and enter insert mode     |
+| `I`     | Go to the start of the line and enter insert mode   |
+ 
 ### Character Navigating  
 | Command | Result                      |
 |---------|-----------------------------|
