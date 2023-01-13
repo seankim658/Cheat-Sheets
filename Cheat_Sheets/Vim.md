@@ -7,7 +7,7 @@ Specifically for my vim keybinds in vscode (most are default).
 - [Navigating](#navigating)
     * [General Navigating](#general-navigating)
     * [Word Navigating](#word-navigating)
-    * [Line Navigating](#line-navigating)
+    * [Line/Cursor Navigating](#linecursor-navigating)
     * [Character Navigating](#character-navigating)
     * [Document Navigating](#document-navigating)
     * [Window](#window)
@@ -55,15 +55,19 @@ Specifically for my vim keybinds in vscode (most are default).
 | `ge`    | Previous end of word |
 | `e`     | Next end of word     |
 
-### Line Navigating  
+### Line/Cursor Navigating  
 | Command | Result                                              |
 |---------|-----------------------------------------------------|
 | `0`     | Start of Line                                       |
 | `$`     | End of line                                         |
 | `^`     | Jump to first non-blank character of the line       |
 | `g_`    | Jump to last non-blank character of the line        |
-| `A`     | Go to the end of the line and enter insert mode     |
+| `i`     | Enter insert mode before cursor                     |
+| `a`     | Enter insert mode after cursor                      |
 | `I`     | Go to the start of the line and enter insert mode   |
+| `A`     | Go to the end of the line and enter insert mode     |
+| `o`     | Insert line below cursor and enter insert mode      |
+| `O`     | Insert line above cursor and enter insert mode      |
  
 ### Character Navigating  
 | Command | Result                      |
