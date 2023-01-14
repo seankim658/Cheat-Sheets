@@ -71,5 +71,5 @@
 |-------------------------------------------|-----------------------------------------------------------------------|
 | `git stash`                               | Save modified and staged changes                                      |
 | `git stash list`                          | List stack-order fo stashed file changes                              |
-| `git stash pop`                           | Write working from top of stash stac              k                   |
+| `git stash pop`                           | Write working from top of stash stack                                 |
 | `git stash drop`                          | Discard the changes from the top of stash stack                       |
