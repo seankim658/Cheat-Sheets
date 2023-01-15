@@ -4,60 +4,77 @@ Specifically for my vim keybinds in vscode (most are default).
 
 - [Clipboard](#clipboard)
 - [Editing](#editing)
+- [Marks](#marks)
 - [Navigating](#navigating)
     * [General Navigating](#general-navigating)
     * [Word Navigating](#word-navigating)
     * [Line/Cursor Navigating](#linecursor-navigating)
     * [Character Navigating](#character-navigating)
     * [Document Navigating](#document-navigating)
-    * [Window](#window)
-- [Miscellaneous](#miscellaneous)
+    * [Window](#window) 
+- [Search](#search)
+- [Miscellaneous](#miscellaneous-personal)
 
 ## Clipboard
-| Command | Result               |
-|---------|----------------------|
-| `y`     | Copy                 |
-| `p`     | Paste                |
+| Command | Result                                      |
+|---------|---------------------------------------------|
+| `y`     | Copy                                        |
+| `yy`    | Yank (copy) line                            |
+| `p`     | Paste below cursor                          |
+| `]p`    | Past below cursor and match indentation     |
+| `P`     | Past above cursor                           |
+| `]P`    | Past above cursor and match indentation     |  
+| `dd`    | Delete (cut) line                           |
+| `x`     | Delete (cut) character                      |    
+| `D`     | Delete (cut) to the end of line             |
 
 ## Editing
-| Command | Result               |
-|---------|----------------------|
-| `x`     | Delete character     |
-| `dd`    | Delete line          |
-| `u`     | Undo                 |
-| `<C-R>` | Redo                 |
-| `.`     | Repeat last command  |
+| Command   | Result                                                            |
+|-----------|-------------------------------------------------------------------|
+| `u`       | Undo                                                              |
+| `<C-r>`   | Redo                                                              |
+| `.`       | Repeat last command                                               |
+| `<C-h>`   | Delete the character before the cursor in **insert mode**         |
+| `<C-w>`   | Delete the word before the cursor during **insert mode**          | 
+| `<Esc>`   | Exit insert mode                                                  |       
+| `>>`      | Indent (move right) line one tab                                  |
+| `<<`      | De-indent (move left) line on tab                                 |  
+
+## Marks 
+| Command               | Result                                |    
+|-----------------------|---------------------------------------|
+| `:marks`              | List of marks                         |
+| `ma`                  | Set current position for mark A       |
+| `` `a``               | Jump to position of mark A            |
+| ``y`a``               | Yank text from position of mark A     |  
+| `:delmarks!`          | Delete all marks                      |
+| `:delmarks <mark>`    | Delete specific mark                  |
 
 ## Navigation  
 ### General Navigating 
 | Command | Result                           |
 |---------|----------------------------------|
-| `h`     | Move cursor left                 |
-| `j`     | Move cursor down                 |
-| `k`     | Move cursor up                   |
-| `l`     | Move cursor right                |
-| `<C-U>` | Half page up                     |
-| `<C-D>` | Half page down                   |
-| `<C-B>` | Page up                          |
-| `<c-f>` | Page down                        |
-| `{`     | Move up code block               |
-| `}`     | Move down code block             |   
-| `<C-O>` | Go back to previous line         |
-| `H`     | Move to top of screen            |
-| `M`     | Move to middle of screen         |
-| `L`     | Move to bottom of screen         |
+| `<C-u>` | Half page up                     |
+| `<C-d>` | Half page down                   |
+| `<C-b>` | Page up                          |
+| `<C-f>` | Page down                        |
 
 ### Word Navigating 
-| Command | Result               |
-|---------|----------------------|
-| `b`     | Previous word        |
-| `w`     | Next word            |
-| `ge`    | Previous end of word |
-| `e`     | Next end of word     |
+| Command | Result                      |
+|---------|-----------------------------|
+| `b`     | Previous word               |
+| `w`     | Next word                   |
+| `ge`    | Previous end of word        |
+| `e`     | Next end of word            |
+| `ea`    | Insert at the end of word   |
 
 ### Line/Cursor Navigating  
 | Command | Result                                              |
 |---------|-----------------------------------------------------|
+| `h`     | Move cursor left                                    |
+| `j`     | Move cursor down                                    |
+| `k`     | Move cursor up                                      |
+| `l`     | Move cursor right                                   |
 | `0`     | Start of Line                                       |
 | `$`     | End of line                                         |
 | `^`     | Jump to first non-blank character of the line       |
@@ -68,6 +85,9 @@ Specifically for my vim keybinds in vscode (most are default).
 | `A`     | Go to the end of the line and enter insert mode     |
 | `o`     | Insert line below cursor and enter insert mode      |
 | `O`     | Insert line above cursor and enter insert mode      |
+| `{`     | Move up code block                                  |
+| `}`     | Move down code block                                |   
+| `<C-o>` | Go back to previous line                            |
  
 ### Character Navigating  
 | Command | Result                      |
@@ -94,7 +114,15 @@ Specifically for my vim keybinds in vscode (most are default).
 | `M`     | Move to middle of screen|
 | `L`     | Move to bottom of screen|
 
-## Miscellaneous  
+## Search 
+| Command           | Result                                |
+|-------------------|---------------------------------------|
+| `/`               | Search forward for pattern            |                    
+| `?`               | Search backward for pattern           |                                       
+| `n`               | Repeat search in same direction       |
+| `N`               | Repeat search in opposite direction   | 
+
+## Miscellaneous (Personal)
 | Command       | Result        |
 |---------------|---------------|
 | `<C-Alt-V>`   | Toggle vim    |
