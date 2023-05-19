@@ -24,9 +24,13 @@ Specifically for my vim keybinds in vscode (most are default).
 | `]p`    | Past below cursor and match indentation     |
 | `P`     | Past above cursor                           |
 | `]P`    | Past above cursor and match indentation     |  
-| `dd`    | Delete (cut) line                           |
 | `x`     | Delete (cut) character                      |    
+| `d`     | Delete (cut)                                |
 | `D`     | Delete (cut) to the end of line             |
+| `dd`    | Delete (cut) line                           |
+| `c`     | Delete (cut) and enter insert mode          |
+| `C`     | Delete (cut) to end of line and enter insert mode |
+| `cc`    | Delete (cut) line and enter insert mode           | 
 
 ## Editing
 | Command   | Result                                                            |
