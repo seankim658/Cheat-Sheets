@@ -38,7 +38,10 @@ Specifically for my vim keybinds in vscode (most are default).
 | `<C-w>`   | Delete the word before the cursor during **insert mode**          | 
 | `<Esc>`   | Exit insert mode                                                  |       
 | `>>`      | Indent (move right) line one tab                                  |
-| `<<`      | De-indent (move left) line on tab                                 |  
+| `<<`      | De-indent (move left) line on tab                                 | 
+| `ciw`     | Change inner word                                                 |
+| `ci{`     | Change inside brackets                                            |
+| `ca{`     | Delete brackets and contents                                      | 
 
 ## Marks 
 | Command               | Result                                |    
