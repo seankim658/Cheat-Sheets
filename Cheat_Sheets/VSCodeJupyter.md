@@ -1,7 +1,5 @@
 # VS Code Jupyter Notebook 
 
-Keyboard shortcuts  
-
 | Shortcut                          | Result                                                                        |
 |-----------------------------------|-------------------------------------------------------------------------------|
 | `Esc`                             | Move from edit mode to command mode                                           |
