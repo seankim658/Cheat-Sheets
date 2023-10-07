@@ -1,7 +1,7 @@
 # Git  
 
 - [Branch & Merge](#branch--merge)
-- [Init](#init)
+- [Init](#init) 
 - [Path Changes](#path-changes)
 - [Setup](#setup)
 - [Share & Update](#share--update)

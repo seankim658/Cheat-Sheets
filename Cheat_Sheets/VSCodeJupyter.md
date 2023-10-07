@@ -1,6 +1,6 @@
 # VS Code Jupyter Notebook 
 
-Keyboard shortcuts 
+Keyboard shortcuts  
 
 | Shortcut                          | Result                                                                        |
 |-----------------------------------|-------------------------------------------------------------------------------|

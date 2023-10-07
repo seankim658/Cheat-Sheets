@@ -2,7 +2,7 @@
 
 Specifically for my vim keybinds in vscode (most are default).  
 
-- [Clipboard](#clipboard)
+- [Clipboard](#clipboard) 
 - [Editing](#editing)
 - [Marks](#marks)
 - [Navigating](#navigating)
