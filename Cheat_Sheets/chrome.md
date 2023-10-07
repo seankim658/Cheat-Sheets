@@ -1,4 +1,4 @@
-# Chrome
+# Chrome/Vimium
 
 - [Address Bar](#address-bar)
 - [Feature Shortcuts](#feature-shortcuts)
