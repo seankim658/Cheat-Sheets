@@ -46,6 +46,7 @@ Specifically for my vim keybinds in vscode (most are default).
 | `ciw`     | Change inner word                                                 |
 | `ci{`     | Change inside brackets                                            |
 | `ca{`     | Delete brackets and contents                                      | 
+| `ysiw"`    | Surround the current word with double quotes                     | 
 
 ## Marks 
 | Command               | Result                                |    
@@ -95,6 +96,7 @@ Specifically for my vim keybinds in vscode (most are default).
 | `{`     | Move up code block                                  |
 | `}`     | Move down code block                                |   
 | `<C-o>` | Go back to previous line                            |
+| `%`     | Move cursor to matching character                   |
  
 ### Character Navigating  
 | Command | Result                      |
