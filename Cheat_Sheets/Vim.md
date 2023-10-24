@@ -37,7 +37,8 @@ Specifically for my vim keybinds in vscode (most are default).
 |-----------|-------------------------------------------------------------------|
 | `u`       | Undo                                                              |
 | `<C-r>`   | Redo                                                              |
-| `.`       | Repeat last command                                               |
+| `.`       | Repeat last change                                                |
+| `;`       | Repeat last movement                                              |
 | `<C-h>`   | Delete the character before the cursor in **insert mode**         |
 | `<C-w>`   | Delete the word before the cursor during **insert mode**          | 
 | `<Esc>`   | Exit insert mode                                                  |       
