@@ -47,7 +47,8 @@ Specifically for my vim keybinds in vscode (most are default).
 | `ciw`     | Change inner word                                                 |
 | `ci{`     | Change inside brackets                                            |
 | `ca{`     | Delete brackets and contents                                      | 
-| `ysiw"`    | Surround the current word with double quotes                     | 
+| `ysiw"`   | Surround the current word with double quotes                      | 
+| `~`       | Convert case                                                      |
 
 ## Marks 
 | Command               | Result                                |    
